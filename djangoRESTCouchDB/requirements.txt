@@ -1,0 +1,7 @@
+couchdb==1.2
+Django==2.0.6
+djangorestframework==3.8.2
+ez-setup==0.9
+pytz==2018.4
+virtualenv==16.0.0
+virtualenvwrapper-win==1.2.5

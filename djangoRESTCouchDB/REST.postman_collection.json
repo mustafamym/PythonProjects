@@ -1,0 +1,253 @@
+{
+	"id": "35bd24bc-419b-e6a2-a7a4-cbb8931296f9",
+	"name": "djangoRESTCouchdbDemo",
+	"description": "",
+	"order": [
+		"5fabd020-88e5-18b1-4d2f-325d7454fa43",
+		"c1d0b4a3-7b34-126b-c6a3-2a2f2dee74a4"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1536037098521,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "5fabd020-88e5-18b1-4d2f-325d7454fa43",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/blogdetail/aca829985ae176a11a1b996ae900253b",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "key",
+					"value": "hello7",
+					"description": "",
+					"type": "text"
+				},
+				{
+					"key": "value",
+					"value": "Hello Worls 1",
+					"description": "",
+					"type": "text"
+				},
+				{
+					"key": "ttl",
+					"value": "5",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1536037253262,
+			"name": "Get blog post by id",
+			"description": "",
+			"collectionId": "35bd24bc-419b-e6a2-a7a4-cbb8931296f9",
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 343,
+					"headers": [
+						{
+							"name": "allow",
+							"key": "allow",
+							"value": "GET, OPTIONS",
+							"description": "Valid actions for a specified resource. To be used for a 405 Method not allowed"
+						},
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "172",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Tue, 04 Sep 2018 05:00:51 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "WSGIServer/0.2 CPython/3.7.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "vary",
+							"key": "vary",
+							"value": "Accept, Cookie",
+							"description": "Tells downstream proxies how to match future request headers to decide whether the cached response can be used rather than requesting a fresh one from the origin server."
+						},
+						{
+							"name": "x-frame-options",
+							"key": "x-frame-options",
+							"value": "SAMEORIGIN",
+							"description": "Clickjacking protection: \"deny\" - no rendering within a frame, \"sameorigin\" - no rendering if origin mismatch"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"id\":\"aca829985ae176a11a1b996ae900253b\",\"title\":\"Latent Dirichlet Allocation\",\"abstract\":\"We describe latent Dirichlet allocation (LDA), a generative...\",\"type\":\"journal\"}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"name": "Get blog post by id",
+					"id": "3456634a-b9d6-52e4-ab86-cedbfddff05f",
+					"request": {
+						"url": "http://localhost:8000/blogdetail/aca829985ae176a11a1b996ae900253b",
+						"pathVariables": {},
+						"pathVariableData": [],
+						"queryParams": [],
+						"headerData": [],
+						"headers": "",
+						"data": [
+							{
+								"key": "key",
+								"value": "hello7",
+								"description": "",
+								"type": "text"
+							},
+							{
+								"key": "value",
+								"value": "Hello Worls 1",
+								"description": "",
+								"type": "text"
+							},
+							{
+								"key": "ttl",
+								"value": "5",
+								"description": "",
+								"type": "text"
+							}
+						],
+						"method": "GET",
+						"dataMode": "params"
+					}
+				}
+			]
+		},
+		{
+			"id": "c1d0b4a3-7b34-126b-c6a3-2a2f2dee74a4",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1536037192832,
+			"name": "create_blog_post",
+			"description": "",
+			"collectionId": "35bd24bc-419b-e6a2-a7a4-cbb8931296f9",
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 201,
+						"name": "Created",
+						"detail": "The request has been fulfilled and resulted in a new resource being created."
+					},
+					"time": 560,
+					"headers": [
+						{
+							"name": "allow",
+							"key": "allow",
+							"value": "POST, OPTIONS",
+							"description": "Valid actions for a specified resource. To be used for a 405 Method not allowed"
+						},
+						{
+							"name": "content-length",
+							"key": "content-length",
+							"value": "172",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "content-type",
+							"key": "content-type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "date",
+							"key": "date",
+							"value": "Tue, 04 Sep 2018 04:59:54 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "server",
+							"key": "server",
+							"value": "WSGIServer/0.2 CPython/3.7.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "vary",
+							"key": "vary",
+							"value": "Accept, Cookie",
+							"description": "Tells downstream proxies how to match future request headers to decide whether the cached response can be used rather than requesting a fresh one from the origin server."
+						},
+						{
+							"name": "x-frame-options",
+							"key": "x-frame-options",
+							"value": "SAMEORIGIN",
+							"description": "Clickjacking protection: \"deny\" - no rendering within a frame, \"sameorigin\" - no rendering if origin mismatch"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"id\":\"aca829985ae176a11a1b996ae900253b\",\"title\":\"Latent Dirichlet Allocation\",\"abstract\":\"We describe latent Dirichlet allocation (LDA), a generative...\",\"type\":\"journal\"}",
+					"language": "json",
+					"rawDataType": "text",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"name": "create_blog_post",
+					"id": "1ba19c64-3bbc-a22a-0986-28a3a1a06fba",
+					"request": {
+						"url": "http://localhost:8000/create",
+						"pathVariables": {},
+						"pathVariableData": [],
+						"queryParams": [],
+						"headerData": [],
+						"headers": "",
+						"data": "{\n  \"title\" : \"Latent Dirichlet Allocation\",\n  \"abstract\" : \"We describe latent Dirichlet allocation (LDA), a generative...\",\n  \"type\" : \"journal\"\n}",
+						"method": "POST",
+						"dataMode": "raw"
+					}
+				}
+			],
+			"rawModeData": "{\n  \"title\" : \"Latent Dirichlet Allocation\",\n  \"abstract\" : \"We describe latent Dirichlet allocation (LDA), a generative...\",\n  \"type\" : \"journal\"\n}"
+		}
+	]
+}
